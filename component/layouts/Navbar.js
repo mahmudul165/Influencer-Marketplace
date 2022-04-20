@@ -32,8 +32,11 @@ const Navbar = () => {
         id="navbar-scroll"
       >
         <section className="container-fluid">
-          <Link href="http://localhost:3000/">
-            <a className="navbar-brand p-2" href="http://localhost:3000/">
+          <Link href="https://influencer-marketplace.netlify.app/">
+            <a
+              className="navbar-brand p-2"
+              href="https://influencer-marketplace.netlify.app/"
+            >
               <Image
                 src={LogoImg}
                 width="250px"
