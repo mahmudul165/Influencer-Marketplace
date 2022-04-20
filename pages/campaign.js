@@ -1,6 +1,6 @@
 import React from "react";
 import Campaign from "../component/brand/Campaign";
-import Layout from "../component/layouts/layout";
+import Layout from "../component/layouts/Layout";
 
 const campaign = () => {
   return (
