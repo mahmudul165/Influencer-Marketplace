@@ -1,4 +1,3 @@
-import React from "react";
 import Dashboard from "../../component/brand/Dashboard";
 import Layout from "../../component/layouts/layout";
 const dashboard = () => {

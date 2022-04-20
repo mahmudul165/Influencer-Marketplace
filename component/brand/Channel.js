@@ -2,18 +2,6 @@ import React from "react";
 
 function Channel() {
   return (
-    // <section className="container mt-5 p-3 m-auto   ">
-    //   <div className="card ">
-    //     <div className="row justify-content-md-center mt-5 p-3 ">
-    //       <div className="col col-md-2">
-    //         <h3 className="fs-3 fw-bolder"> </h3>
-    //       </div>
-    //       <div className="col-md-auto ">
-    //         <h3 className="fs-3 fw-bolder">Facebook</h3>
-    //       </div>
-    //     </div>
-    //   </div>
-    // </section>
     <section className=" mt-3 py-3">
       <section className=" bg-light  ">
         <section className="container mt-5 py-3 ">
