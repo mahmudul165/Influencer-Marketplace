@@ -1,5 +1,5 @@
-import Channel from "../../component/brand/Channel";
-import Layout from "../../component/layouts/layout";
+import Channel from "../../component/Brand/Channel";
+import Layout from "../../component/Layouts/layout";
 
 function channel() {
   return (

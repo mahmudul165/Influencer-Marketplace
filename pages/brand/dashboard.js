@@ -1,5 +1,5 @@
-import Dashboard from "../../component/brand/Dashboard";
-import Layout from "../../component/layouts/layout";
+import Dashboard from "../../component/Brand/Dashboard";
+import Layout from "../../component/Layouts/layout";
 const dashboard = () => {
   return (
     <Layout>

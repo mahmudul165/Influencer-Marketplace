@@ -1,6 +1,6 @@
-import Setting from "../../component/brand/Setting";
-import Security from "../../component/brand/Security";
-import Layout from "../../component/layouts/layout";
+import Setting from "../../component/Brand/Setting";
+import Security from "../../component/Brand/Security";
+import Layout from "../../component/Layouts/layout";
 
 const security = () => {
   return (
