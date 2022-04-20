@@ -1,5 +1,5 @@
 import Setting from "../../component/brand/Setting";
-import Layout from "../../component/layouts/layout";
+import Layout from "../../component/layouts/Layout";
 
 function settings({ children }) {
   return (
