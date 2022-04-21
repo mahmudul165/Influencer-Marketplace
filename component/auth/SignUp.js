@@ -46,10 +46,10 @@ const Signup = () => {
   // user authentication
   const { data: session } = useSession();
   console.log(useSession());
-  const handleSignIn = () => {
+  const handleSignIn = (platfrom) => {
     event.preventDefault();
     value === "influencer" || value === "brand"
-      ? signIn()
+      ? signIn(platfrom)
       : alert("An example warning alert with an icon ");
   };
   // value !== null && signIn();
@@ -100,7 +100,7 @@ const Signup = () => {
                           <button
                             type="button"
                             className="btn btn-primary btn-lg me-5 "
-                            onClick={() => handleSignIn()}
+                            onClick={() => handleSignIn("google")}
                           >
                             Google
                           </button>
@@ -108,7 +108,7 @@ const Signup = () => {
                           <button
                             type="button"
                             className="btn btn-primary btn-lg ms-2"
-                            onClick={() => handleSignIn()}
+                            onClick={() => handleSignIn("facebook")}
                           >
                             Facebook
                           </button>

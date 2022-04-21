@@ -12,7 +12,7 @@ import HomeOverview4 from "../component/home/overview/homeOverview4/HomeOverview
 import HomeOverview5 from "../component/home/overview/homeOverview5/HomeOverview5";
 import VideoIntroducing from "../component/home/videoIntroducing/VideoIntroducing";
 import CustomerStories from "../component/home/customerStories/CustomerStories";
-
+//NEXTAUTH_URL=https://influencer-marketplace.vercel.app/api/auth
 export default function Home() {
   // const navbarScroll = document.getElementById("navbar-scroll");
   //console.log(navbarScroll);
