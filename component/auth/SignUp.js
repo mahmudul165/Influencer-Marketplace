@@ -49,8 +49,10 @@ const Signup = () => {
   const handleSignIn = (platfrom) => {
     event.preventDefault();
     value === "influencer" || value === "brand"
-      ? signIn(platfrom)
-      : alert("An example warning alert with an icon ");
+      ? signIn(platfrom, {
+          callbackUrl: "/",
+        })
+      : alert("Please select a user status 'Brand' or 'Influencer' ");
   };
   // value !== null && signIn();
   return (
