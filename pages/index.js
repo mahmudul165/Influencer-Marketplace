@@ -2,7 +2,7 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 //import Image from "next/image";
 import dynamic from "next/dynamic";
-import Layout from "../component/layouts/layout";
+import Layout from "/component/layouts/Layout";
 const HomeOverview1 = dynamic(
   () => import("/component/home/overview/homeOverview1/HomeOverview1"),
   {
@@ -28,7 +28,7 @@ const Company = dynamic(() => import("/component/home/company/Company"), {
   loading: () => <p>Loading...</p>,
 });
 const Importance = dynamic(
-  () => import("/component/home/importance/importance"),
+  () => import("/component/home/importance/Importance.js"),
   {
     loading: () => <p>Loading...</p>,
   }
