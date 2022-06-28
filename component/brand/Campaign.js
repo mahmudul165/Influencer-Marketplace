@@ -24,10 +24,10 @@ const Campaign = () => {
 
   return (
     <section className=" mt-3 py-3">
-      <section className=" bg-light  ">
-        <section className="container mt-5 py-3 ">
-          <section className="row my-5 ">
-            <h5 className="fs-5 fw-bolder my-3 ">Create Campaign </h5>
+      <section className=" bg-light  mt-5 py-5">
+        <section className="container card mt-5 pt-3 ">
+          <section className=" row mt-5 ">
+            <h5 className="fs-5 fw-bolder mt-3 ">Create Campaign </h5>
             <div className="col-md-6  card border-0">
               {/* 1st part firast slide */}
               <section className="  my-4 pb-2 m-2 p-2">

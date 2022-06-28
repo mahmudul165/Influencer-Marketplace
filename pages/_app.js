@@ -1,5 +1,7 @@
 import { SessionProvider } from "next-auth/react";
 import "../styles/globals.css";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import Head from "next/head";
 import Script from "next/script";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -15,6 +17,13 @@ function MyApp({ Component, pageProps: { session, ...pageProps } }) {
           integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
           crossOrigin="anonymous"
         />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@700&family=Mulish&family=Pacifico&display=swap"
+          rel="stylesheet"
+        ></link>
       </Head>
 
       <Script
@@ -22,11 +31,6 @@ function MyApp({ Component, pageProps: { session, ...pageProps } }) {
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
         crossOrigin="anonymous"
       />
-      {/* font awesome   */}
-      <Script
-        src="https://kit.fontawesome.com/61a6132c09.js"
-        crossOrigin="anonymous"
-      ></Script>
       <SessionProvider session={session}>
         <Component {...pageProps} />
       </SessionProvider>

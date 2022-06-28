@@ -8,7 +8,7 @@ function Footer() {
         style={{ backgroundcolor: "#ECEFF1" }}
       >
         <section
-          className="d-flex justify-content-between p-4 text-white"
+          className="d-flex justify-content-between   text-white"
           style={{ backgroundcolor: "#21D192" }}
         >
           <div className="me-5">
@@ -36,7 +36,7 @@ function Footer() {
           </div>
         </section>
         <section className="">
-          <div className="container text-center text-md-start mt-5">
+          <div className="container text-center text-md-start  ">
             <div className="row mt-3">
               <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                 <h6 className="text-uppercase fw-bold">Company name</h6>
@@ -148,8 +148,8 @@ function Footer() {
           style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
         >
           © 2020 Copyright:
-          <a className="text-dark" href="https://Ouadque.com/">
-            Ouadque.com
+          <a className="text-dark" href="#">
+            Mahmudul Hasan
           </a>
         </div>
       </footer>
