@@ -32,10 +32,10 @@ const Navbar = () => {
         id="navbar-scroll"
       >
         <section className="container-fluid">
-          <Link href="https://influencer-marketplace.netlify.app/">
+          <Link href="https://influencer-marketplace.vercel.app">
             <a
               className="navbar-brand p-2"
-              href="https://influencer-marketplace.netlify.app/"
+              href="https://influencer-marketplace.vercel.app"
             >
               <Image
                 src={LogoImg}
