@@ -4,27 +4,27 @@ import styles from "../styles/Home.module.css";
 import dynamic from "next/dynamic";
 import Layout from "/component/layouts/Layout";
 const HomeOverview1 = dynamic(
-  () => import("/component/home/overview/homeOverview1/HomeOverview1"),
+  () => import("/component/home/overview/homeOverview1/HomeOverview1.js"),
   {
     loading: () => <p>Loading...</p>,
   }
 );
 const HomeOverview2 = dynamic(
-  () => import("/component/home/overview/homeOverview2/HomeOverview2"),
+  () => import("/component/home/overview/homeOverview2/HomeOverview2.js"),
   {
     loading: () => <p>Loading...</p>,
   }
 );
 const HomeOverview3 = dynamic(
-  () => import("/component/home/overview/homeOverview3/HomeOverview3"),
+  () => import("/component/home/overview/homeOverview3/HomeOverview3.js"),
   {
     loading: () => <p>Loading...</p>,
   }
 );
-const Slider = dynamic(() => import("/component/home/slider/Slider"), {
+const Slider = dynamic(() => import("/component/home/slider/Slider.js"), {
   loading: () => <p>Loading...</p>,
 });
-const Company = dynamic(() => import("/component/home/company/Company"), {
+const Company = dynamic(() => import("/component/home/company/Company.js"), {
   loading: () => <p>Loading...</p>,
 });
 const Importance = dynamic(
@@ -34,22 +34,22 @@ const Importance = dynamic(
   }
 );
 const WorkPlatforms = dynamic(
-  () => import("/component/home/workPlatforms/WorkPlatforms"),
+  () => import("/component/home/workPlatforms/WorkPlatforms.js"),
   {
     loading: () => <p>Loading...</p>,
   }
 );
-const Studio = dynamic(() => import("/component/home/studio/Studio"), {
+const Studio = dynamic(() => import("/component/home/studio/Studio.js"), {
   loading: () => <p>Loading...</p>,
 });
 const Testimonial = dynamic(
-  () => import("/component/home/testimonial/Testimonial"),
+  () => import("/component/home/testimonial/Testimonial.js"),
   {
     loading: () => <p>Loading...</p>,
   }
 );
 const WorkShowcase = dynamic(
-  () => import("/component/home/workshowcase/WorkShowcase"),
+  () => import("/component/home/workshowcase/WorkShowcase.js"),
   {
     loading: () => <p>Loading...</p>,
   }
